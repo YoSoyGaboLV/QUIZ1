@@ -1,0 +1,99 @@
+/* GENERAL STYLES */
+/* I AM GIVING IT TWO DIFFERENT BACKGROUND COLORS TO MAKE IT NICER */
+*{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* TITLES AND PARAGRAPH STYLES */
+header{
+    text-align: center;
+    background-color: bisque;
+}
+h2{
+    text-align: center;
+    color: brown;
+    padding: 20px 0;
+}
+p{
+    color: gray;
+    padding: 20px 15px;
+}
+
+
+
+/* HEADER STYLES */
+h1{
+    font-size: 50;
+    color: beige;
+}
+
+/* MAIN BODY STYLES */
+
+main{
+    background-color: azure;
+}   
+li{
+    color: gray;
+}
+
+/* FAVORITE WEBSITE STYLES */
+.main_ul{
+    display: flex;
+}
+.main_li{
+    list-style: none;
+    margin: 10px auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* QUOTES SECTION */
+.card{
+    display: flex;
+}
+.main_card{
+    width: 200px;
+    height: 150px;
+    background-color: ivory;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main_card p{
+    font-size: 10px;
+}
+.main_quotes-p{
+    text-align: center;
+}
+
+/* FAVORITE VACATIO SPOT SECTION */
+
+.main_card--spot{
+    width: 200px;
+    height: 220px;
+    background-color: ivory;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* MATH SECTION */
+.main_math{
+    text-align: center;
+}
+
+/* MY MOOD SECTION */
+
+.main_mood{
+    font-size: 200px;
+    text-align: center;
+}
+
+/* CONTACT SECTION */
+footer{
+    background-color: bisque;
+    text-align: center;
+}
